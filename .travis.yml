@@ -12,4 +12,5 @@ before_script:
   - npm install
   - node ./web/server.js &
 script:
-  - node tests/browser-test.js
+  - node tests/UI/webdriver-javascript.js
+  
