@@ -12,6 +12,7 @@ async function setup(env = 'chrome', configFile = './conf/nightwatch.conf.js') {
   await createSession({ env, configFile });
 }
 
+// using async, available with ES6
 async function shutdown() {
   await closeSession();
   await stopWebDriver();
@@ -24,10 +25,10 @@ async function run() {
     .setValue('input[name="q"]', 'donald trump simulator')
     .click('#searchButton')
     .assert.title('donald trump simulator site:github.com at DuckDuckGo')
-    .assert.containsText('div.results--main', 'TrumpKlon');
+    .assert.containsText('div.results--main', 'Donald Trump');
 }
 
-(async function() {
+(async function () {
   try {
     await setup('chrome');
     await run();

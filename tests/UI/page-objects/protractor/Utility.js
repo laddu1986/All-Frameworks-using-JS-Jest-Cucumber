@@ -1,5 +1,5 @@
+/* global element, expect, by, protractor, browser, $*/
 var Utility = function () {
-
   var EC = protractor.ExpectedConditions;
 
   this.waitForElement = async (el) => {
@@ -9,6 +9,12 @@ var Utility = function () {
   this.randomAlphaCharsWord = (numChars) => {
     let text = Math.random().toString(36).substring(numChars);
     return text;
+  };
+
+  this.takeScreenshot = (data, filename) => {
+    var stream = fs.createWriteStream(filename);
+    stream.write(new Buffer(data, 'base64'));
+    stream.end();
   };
 
   this.randomEmail = (numChars) => {

@@ -1,6 +1,4 @@
-![Build Status](https://travis-ci.com/jaffamonkey/starter-github-html-tests-travis-netlify.svg?token=r2G3BaxqddAcRBHK61uA&branch=master)
-
-**Go to the `docs` folder for the `TRAINING-GUIDE-1.md`, and other guides.**
+![Build Status](https://travis-ci.com/jaffamonkey/test-engineering-workshop-js.svg?token=r2G3BaxqddAcRBHK61uA&branch=master)
 
 #### A very important thing to remember when looking at code ...
 
