@@ -1,4 +1,4 @@
-Running Pa11y on URL http://localhost:8081/
+Running Pa11y on URL http://localhost:8081
 Launching Headless Chrome
 Opening URL in Headless Chrome
 Injecting HTML CodeSniffer

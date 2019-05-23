@@ -83,7 +83,7 @@ npm run wdupdate
 
 `npm run test:jest` - command run: `./node_modules/.bin/jest ./tests/UI/jest-webdriver.js"`
 
-### Mocha/Puppoeteer
+### Mocha/Puppeteer
 
 `npm run test:mocha` - command run: `./node_modules/.bin/mocha ./conf/puppeteer.conf.js --recursive ./tests/UI/mocha-puppeteer.js`
 

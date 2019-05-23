@@ -1,12 +1,23 @@
-![Build Status](https://travis-ci.com/jaffamonkey/test-engineering-workshop-js.svg?token=r2G3BaxqddAcRBHK61uA&branch=master)
+[![Build Status](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png?branch=master)](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter)
+[![Dependency Status](https://gemnasium.com/jonathanchrisp/selenium-cucumber-ruby-kickstarter.png)](https://gemnasium.com/jonathanchrisp/selenium-cucumber-ruby-kickstarter)
+[![Code Climate](https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png)](https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter)
 
-#### A very important thing to remember when looking at code ...
+#selenium-cucumber-ruby-kickstarter
 
-_Don't try and process all the lines at once, guaranteed brain-freeze. Look at each line, and check if you can actually work out what the line is doing. If you don't know, go to the next line and so on. You will probably find that by doing this way, previous lines that were a mystery suddenly become clearer._
+##Background
 
-Things to remember:
-* It's just another language
-* You will recognise parts because of your existing general language knowledge
-*  Commonly coding terms are close to a natural language word (e.g. "try") with a loose association with the orginal meaning, i.e. not a way you would talk in normal conversation.
-* Think of this as more of a puzzle (sometimes just basic mathematics)
-* Some times there are parts of coding you will need to look up or be told.
+A quick example of how to bring Selenium, Cucumber and Ruby together to automate a Google Search.
+
+### Getting Started
+      1. Ensure you have the firefox or chrome browser installed - install chromedriver if using chrome
+      2. Ensure you have ruby installed (built and run with 2.5.0) - use rvm
+      3. Ensure you have rubygems and the bundler installed
+      4. Navigate to the cloned project in your terminal
+      5. Run 'bundle install'
+      6. Run 'bundle exec cucumber'
+
+Please note that this will run the feature in the chrome browser as default. To run this test in firefox just pass the argument
+`-p firefox`  e.g. `bundle exec cucumber -p firefox`
+
+## Feedback
+I would be more than happy to recieve feedback, please email me at: jonathan.chrisp@gmail.com.
