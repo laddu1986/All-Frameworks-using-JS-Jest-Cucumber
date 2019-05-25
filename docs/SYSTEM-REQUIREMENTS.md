@@ -9,7 +9,7 @@ On Macs you can use the ```brew``` package manager to install these (or ```npm``
 
 | MacOS                   | Linux ( Debian, Ubuntu, Linux Mint)   | Windows                 |
 | ----------------------- | ------------------------------------- | ----------------------- |
-| ```brew install node``` | ```sudo apt-get install nodejs npm``` | Download/Install NodeJS |
+| ```brew install ruby``` | ```sudo apt-get install ruby    ```   | Download/Install Ruby |
 | ```brew install git```  | ```sudo apt-get install git```        | Download/Install Git    |
 
 I would advise using a decent IDE to code in, like Visual Studio Code (free)/

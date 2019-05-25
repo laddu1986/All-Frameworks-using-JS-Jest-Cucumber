@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": 1887,
+      "status": "SUCCESS",
+      "status_message": "SUCCESS",
+      "ticket": 30698,
+      "createdAt": "2017-06-27T22:51:49+0000",
+      "updatedAt": "2017-06-27T22:51:58+0000"
+    },
+    {
+      "id": 1888,
+      "status": "SUCCESS",
+      "status_message": "SUCCESS",
+      "ticket": 30600,
+      "createdAt": "2017-06-27T22:51:49+0000",
+      "updatedAt": "2017-06-27T22:52:21+0000"
+    }
+  ]
+}

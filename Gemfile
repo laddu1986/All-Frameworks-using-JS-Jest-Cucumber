@@ -1,5 +1,7 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
+gem 'sinatra'
+gem 'byebug'
 gem 'cucumber'
 gem 'selenium-webdriver'
 gem 'require_all'
